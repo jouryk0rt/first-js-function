@@ -1,9 +1,11 @@
 function buildHelloArray(num){
 let myArray = [];
 for (let i = 0; i < num; i++){
-    console.log(i);
+    myArray.push("hello");
 }
+return myArray;
 
 }
 
-buildHelloArray(4);
+let result = buildHelloArray(4);
+console.log(result);
